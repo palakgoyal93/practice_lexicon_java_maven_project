@@ -42,21 +42,21 @@ public class App {
                 System.out.println(number1 + " - " + number2 + " = " + result);
             }
 
+            // performs multiplication between numbers
             case '*'->{
                 result = number1 * number2;
                 System.out.println(number1 + " * " + number2 + " = " + result);
 
-                // performs division between numbers
+
             }
 
+            // performs division between numbers
             case '/'->{
                 result = number1 / number2;
                 System.out.println(number1 + " / " + number2 + " = " + result);
             }
-            // performs multiplication between numbers
+
         }
-
-
 
         System.out.println("Do you want to continue ? \nPress y to continue else press n to exit");
         char answer;
